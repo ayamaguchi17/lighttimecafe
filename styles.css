@@ -69,7 +69,24 @@ header img {
 
 .nav a:hover {
   text-decoration: underline;
+
 }
+
+
+
+/* .mug-icon {
+  display:none;
+  width:27px;
+  height:27px;
+  margin-right: 5px;
+}
+
+.mu-icon :hover{
+
+  display:block;
+} */
+
+
 
 .section-title {
   font-size: 70px;
@@ -309,6 +326,7 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    perspective: 2px;
   }
 
   .parallax-about-img {
@@ -320,6 +338,7 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    perspective: 2px;
   }
 
   .parallax-location-img {
@@ -331,6 +350,7 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    perspective: 2px;
   }
 
   .menu-container {
