@@ -29,8 +29,8 @@ header img {
   height: 100vh;
   object-fit: cover;
   margin-bottom:-7px;
-  
- 
+  position:relative;
+  z-index:10;
 }
 
 .logo-text {
@@ -45,6 +45,7 @@ header img {
   filter: drop-shadow(1px 1px 3px rgb(255, 199, 78));
   white-space: nowrap;
   font-family: "Dancing Script", cursive;
+  z-index:10;
 }
 
 .cafe-text {
@@ -60,7 +61,7 @@ header img {
   position: absolute;
   right: 8%;
   top: 10px;
-  z-index: 10;
+  z-index:99;
 }
 
 .nav li {
@@ -71,7 +72,7 @@ header img {
   font-size: 25px;;
   font-weight: 900;
   color: aliceblue;
-  filter: drop-shadow(1px 1px 3px rgb(143, 88, 46));
+  filter: drop-shadow(1px 2px 5px rgb(39, 23, 12));
 }
 
 .nav a:hover {
@@ -99,6 +100,8 @@ header img {
   padding: 3em calc(20vw - 70px) 6em;
 } */
 
+
+
 .section-title {
   font-size: 70px;
   color: azure;
@@ -108,7 +111,7 @@ header img {
   display: flex;
   justify-content:center;
   align-items:center;
-  z-index: 0;
+  z-index:2;
   filter: drop-shadow(1px 1px 5px rgb(103, 99, 90));
 }
 
@@ -118,7 +121,7 @@ header img {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  top: 0;
+  
 }
 
 .parallax-image2 {
@@ -126,7 +129,7 @@ header img {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  top: 0;
+ 
 }
 
 .parallax-image3 {
@@ -134,19 +137,18 @@ header img {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  top: 0;
+  
 }
 
 
 .sticky {
-  margin-top: 0vh;
-  width: 100vw;
-  height: 30vh;
-  /* background: linear-gradient(45deg, red, blue); */
+  /* margin-top: -100vh; */
+  /* width: 100vw; */
+  /* height: 100vh; */
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 100;
-  z-index: 0;
+  top:0;
+  z-index: 0; 
 }
 
 
@@ -176,6 +178,8 @@ header img {
   text-align: center;
   background-color: white;
   position: relative;
+  z-index:99;
+
 
 }
 
@@ -225,6 +229,7 @@ dd {
   padding: 50px 0px;
   position:relative;
   background-color: antiquewhite;
+  z-index:99;
 
 }
 
@@ -246,6 +251,7 @@ dd {
   padding: 50px 0px;
   position:relative;
   background-color:rgb(255, 255, 255);
+  z-index:99;
 }
 
 #map {
@@ -288,7 +294,7 @@ footer {
   cursor: pointer;
   line-height: 40px;
   width: 40px;
-  z-index: 10;
+  z-index: 101;
 } 
 
 /* media query mobile normal*/
@@ -321,7 +327,7 @@ footer {
     right: 20px;
     border: 0;
     cursor: pointer;
-    z-index: 99;
+    z-index: 101;
     opacity: 70%;
   }
 
@@ -427,10 +433,10 @@ footer {
     left: 0;
     height: 40vh;
     width: 100vw;
-    background-image: linear-gradient(0deg, #ffbb00 0%, #ff8a04 100%);
+    background-image: linear-gradient(0deg, #fed45e 0%, #ddbf37 100%);
     opacity: 90%;
     transition: 0.3s;
-    z-index: 90;
+    z-index: 101;
   }
 
   .topNav ul {
