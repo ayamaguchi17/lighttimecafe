@@ -7,7 +7,6 @@ html {
   box-sizing: border-box;
 }
 
-
 body {
   z-index: 0;
 }
@@ -22,15 +21,13 @@ a {
   text-decoration: none;
 }
 
-
-
 header img {
   width: 100%;
   height: 100vh;
   object-fit: cover;
-  margin-bottom:-7px;
-  position:relative;
-  z-index:10;
+  margin-bottom: -7px;
+  position: relative;
+  z-index: 10;
 }
 
 .logo-text {
@@ -44,10 +41,9 @@ header img {
   filter: drop-shadow(1px 1px 3px rgb(255, 199, 78));
   white-space: nowrap;
   font-family: "Dancing Script", cursive;
-  z-index:10;
-  text-rendering:optimizeLegibility;
-  padding:10px;
-
+  z-index: 10;
+  text-rendering: optimizeLegibility;
+  padding: 10px;
 }
 
 .cafe-text {
@@ -63,7 +59,7 @@ header img {
   position: absolute;
   right: 8%;
   top: 10px;
-  z-index:99;
+  z-index: 99;
 }
 
 .nav li {
@@ -71,7 +67,7 @@ header img {
 }
 
 .nav a {
-  font-size: 25px;;
+  font-size: 25px;
   font-weight: 900;
   color: aliceblue;
   filter: drop-shadow(1px 2px 5px rgb(39, 23, 12));
@@ -79,12 +75,9 @@ header img {
 
 .nav a:hover {
   text-decoration: underline;
-  color:#fed45e;
+  color: #fed45e;
   transition: 0.3s ease-in;
-
 }
-
-
 
 /* .mug-icon {
   display:none;
@@ -98,34 +91,29 @@ header img {
   display:block;
 } */
 
-
 /* .section:last-child {
   min-height: 50vh;
   padding: 3em calc(20vw - 70px) 6em;
 } */
 
-
-
 .section-title {
   font-size: 70px;
   color: azure;
   position: relative;
-  width:100%;
-  height:30vh;
+  width: 100%;
+  height: 30vh;
   display: flex;
-  justify-content:center;
-  align-items:center;
-  z-index:2;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
   filter: drop-shadow(1px 1px 5px rgb(103, 99, 90));
 }
-
 
 .parallax-image1 {
   background-image: url("img/menu.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  
 }
 
 .parallax-image2 {
@@ -133,7 +121,6 @@ header img {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
- 
 }
 
 .parallax-image3 {
@@ -141,9 +128,7 @@ header img {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  
 }
-
 
 .sticky {
   /* margin-top: -100vh; */
@@ -151,23 +136,21 @@ header img {
   /* height: 100vh; */
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  top:0;
-  z-index: 0; 
+  top: 0;
+  z-index: 0;
 }
 
-
-.full-width.white{
-  width:100vw;
-  background-color:rgb(255, 255, 255);
+.full-width.white {
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
   position: relative;
 }
 
-.full-width.beige{
-  width:100vw;
-  background-color:antiquewhite;
+.full-width.beige {
+  width: 100vw;
+  background-color: antiquewhite;
   position: relative;
 }
-
 
 #menu {
   background-color: rgb(255, 255, 255);
@@ -182,9 +165,7 @@ header img {
   text-align: center;
   background-color: white;
   position: relative;
-  z-index:99;
-
-
+  z-index: 99;
 }
 
 .section-head {
@@ -231,10 +212,9 @@ dd {
   height: 100%;
   margin: auto;
   padding: 50px 0px;
-  position:relative;
+  position: relative;
   background-color: antiquewhite;
-  z-index:99;
-
+  z-index: 99;
 }
 
 .about-item {
@@ -253,9 +233,9 @@ dd {
   height: 100%;
   margin: 50px auto;
   padding: 50px 0px;
-  position:relative;
-  background-color:rgb(255, 255, 255);
-  z-index:99;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  z-index: 99;
 }
 
 #map {
@@ -284,7 +264,6 @@ footer {
 
 #upBtn {
   display: none;
-  opacity: 80%;
   font-size: 30px;
   border: none;
   padding: 0px;
@@ -299,7 +278,7 @@ footer {
   line-height: 40px;
   width: 40px;
   z-index: 101;
-} 
+}
 
 /* media query mobile normal*/
 /* ---------------------------------------------------------------- */
@@ -332,7 +311,7 @@ footer {
     border: 0;
     cursor: pointer;
     z-index: 101;
-    opacity: 70%;
+    opacity: 100%;
   }
 
   .hamburger .line {
@@ -344,8 +323,15 @@ footer {
     transition: all 0.1s ease-in;
   }
 
+  .hamburger.open {
+    transform: scale(10);
+    transition: all 0.2s ease-in;
+  }
+
   .hamburger.open .line:nth-child(1) {
-    transform: translateY(6px) rotate(45deg);
+    transform: translateY(5.2px) rotate(45deg);
+    height: 0.5px;
+    width: 3px;
   }
 
   .hamburger.open .line:nth-child(2) {
@@ -353,9 +339,10 @@ footer {
   }
 
   .hamburger.open .line:nth-child(3) {
-    transform: translateY(-6px) rotate(-45deg);
+    transform: translateY(-5.3px) rotate(-45deg);
+    height: 0.5px;
+    width: 3px;
   }
-
 
   .logo-text {
     display: flex;
@@ -366,16 +353,16 @@ footer {
     top: 45%;
     transform: translate(-50%, -50%);
   }
-  
+
   .section-title {
     font-size: 50px;
     color: azure;
     position: relative;
-    width:100%;
-    height:30vh;
+    width: 100%;
+    height: 30vh;
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     z-index: 0;
     filter: drop-shadow(1px 1px 5px rgb(103, 99, 90));
   }
@@ -429,50 +416,44 @@ footer {
   }
 
   .topNav {
-    border-radius: 50%;
     display: flex;
     justify-content: left;
-    align-items: center;
+    align-items: left;
     position: fixed;
-    top: -100vh;
-    right:-100vw;
-    height: 350px;
-    width: 350px;
-    background-image: linear-gradient(0deg, #fed45e 0%, #ddbf37 100%);
-    opacity: 90%;
+    top: 8.5%;
+    right: 5px;
     transition: 0.3s;
-    z-index: 101;
+    z-index: 120;
+    opacity: 0;
   }
 
-  .topNav ul {
+  ul {
     list-style: none;
     font-size: 0.7rem;
     flex-direction: column;
-    margin-left: 20%;
-    margin-top:28%;
+    /* margin-left: 20%;
+    margin-top:28%; */
+    overflow: hidden;
   }
 
   .topNav.open {
-    transform: translate(-35vh, 85vh);
-    
-
+    display: flex;
+    transition-duration: 0.7s;
+    opacity: 1;
   }
 
-  .topNav li {
-    
-    margin: 15% auto;
-    /* background-color: #4b2100; */
-    width: 100px;
-    height: 30px;
+  li {
     text-align: right;
     cursor: pointer;
+    padding: 10px;
   }
 
-  .topNav a {
+  a {
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 1.5rem;
     filter: drop-shadow(1px 1px 5px rgb(170, 149, 100));
+    cursor: pointer;
     /* line-height: 40px; */
   }
 
@@ -492,23 +473,18 @@ footer {
     transform: translateY(100vh);
   }
 
- .top-nav-btn.open {
-  transform: translateY(100vh);
-  
- } 
-
-  
+  .top-nav-btn.open {
+    transform: translateY(100vh);
+  }
 }
 
 /* media query mobile small*/
 @media only screen and (max-width: 350px) {
+  .logo-text {
+    font-size: 1rem;
+  }
 
-  .logo-text{
-font-size: 1rem;
-} 
-
-.section-title {
-  font-size: 50px;
-}
-
+  .section-title {
+    font-size: 50px;
+  }
 }
