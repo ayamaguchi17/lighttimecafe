@@ -429,14 +429,15 @@ footer {
   }
 
   .topNav {
+    border-radius: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     position: fixed;
     top: -100vh;
-    left: 0;
-    height: 40vh;
-    width: 100vw;
+    right:-100vw;
+    height: 350px;
+    width: 350px;
     background-image: linear-gradient(0deg, #fed45e 0%, #ddbf37 100%);
     opacity: 90%;
     transition: 0.3s;
@@ -445,29 +446,33 @@ footer {
 
   .topNav ul {
     list-style: none;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     flex-direction: column;
+    margin-left: 20%;
+    margin-top:28%;
   }
 
   .topNav.open {
-    transform: translateY(100vh);
+    transform: translate(-35vh, 85vh);
+    
+
   }
 
   .topNav li {
-    border-radius: 5%;
-    margin: 20% auto;
+    
+    margin: 15% auto;
     /* background-color: #4b2100; */
-    width: 120px;
-    height: 35px;
-    text-align: center;
+    width: 100px;
+    height: 30px;
+    text-align: right;
     cursor: pointer;
   }
 
   .topNav a {
     color: rgb(255, 255, 255);
     font-weight: bold;
-    font-size: 2rem;
-    filter: drop-shadow(1px 1px 5px rgb(103, 99, 90));
+    font-size: 1.5rem;
+    filter: drop-shadow(1px 1px 5px rgb(170, 149, 100));
     /* line-height: 40px; */
   }
 
