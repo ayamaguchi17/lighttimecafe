@@ -304,34 +304,35 @@ footer {
     background-color: rgb(255, 216, 88);
     border-radius: 50%;
     position: fixed;
-    width: 40px;
-    height: 40px;
-    top: 20px;
-    right: 20px;
+    width: 280px;
+    height: 280px;
+    top: -100px;
+    right: -100px;
     border: 0;
     cursor: pointer;
     z-index: 101;
     opacity: 100%;
+    -webkit-transform: translateZ(0) scale(0.2);
   }
 
   .hamburger .line {
     background-color: #000;
     display: block;
-    margin: 4px auto;
-    height: 2px;
-    width: 20px;
+    margin: 20px auto;
+    height: 10px;
+    width: 100px;
     transition: all 0.1s ease-in;
   }
 
   .hamburger.open {
-    transform: scale(10);
+    -webkit-transform: translateZ(0) scale(1.8);
     transition: all 0.2s ease-in;
   }
 
   .hamburger.open .line:nth-child(1) {
-    transform: translateY(5.2px) rotate(45deg);
-    height: 0.5px;
-    width: 3px;
+    transform: translateY(25px) rotate(45deg);
+    height: 1px;
+    width: 18px;
   }
 
   .hamburger.open .line:nth-child(2) {
@@ -339,9 +340,9 @@ footer {
   }
 
   .hamburger.open .line:nth-child(3) {
-    transform: translateY(-5.3px) rotate(-45deg);
-    height: 0.5px;
-    width: 3px;
+    transform: translateY(-26px) rotate(-45deg);
+    height: 1px;
+    width: 18px;
   }
 
   .logo-text {
