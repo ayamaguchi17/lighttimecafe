@@ -244,7 +244,7 @@ dd {
 }
 
 #address {
-  padding: 20px 0px;
+  padding: 20px 10px;
   text-align: left;
 }
 
@@ -252,7 +252,6 @@ footer {
   text-align: center;
   opacity: 50%;
   margin: 5px;
-  padding: 5px;
 }
 
 .topNav {
