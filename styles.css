@@ -231,9 +231,11 @@ dd {
 address {
   padding: 20px 10px;
   text-align: left;
-  text-decoration: none;
-    font:500;
+  font-family: sans-serif;
+  color: #2d2d2d;
+  font-style: normal;
 }
+
 
 footer {
   text-align: center;
@@ -397,10 +399,12 @@ footer {
 
   address {
     padding: 30px 20px;
-    text-decoration: none;
-    font:500;
-  
+    font-family: sans-serif;
+    color: #2d2d2d;
+    font-style: normal;
   }
+  
+  
 
   footer {
     font-size: 11px;
