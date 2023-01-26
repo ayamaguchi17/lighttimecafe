@@ -228,7 +228,7 @@ dd {
   height: 450px;
 }
 
-#address {
+address {
   padding: 20px 10px;
   text-align: left;
 }
@@ -393,7 +393,7 @@ footer {
     margin: 10px auto;
   }
 
-  #address {
+  address {
     padding: 30px 20px;
   }
 
