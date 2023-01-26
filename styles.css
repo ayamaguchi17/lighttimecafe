@@ -231,6 +231,8 @@ dd {
 address {
   padding: 20px 10px;
   text-align: left;
+  text-decoration: none;
+    font:500;
 }
 
 footer {
@@ -395,6 +397,9 @@ footer {
 
   address {
     padding: 30px 20px;
+    text-decoration: none;
+    font:500;
+  
   }
 
   footer {
