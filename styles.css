@@ -430,7 +430,7 @@ footer {
 
   .topNav.open {
     display: flex;
-    transition-duration: 0.7s;
+    transition-duration: 0.9s;
     opacity: 1;
   }
 
