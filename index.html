@@ -1,336 +1,331 @@
 <!DOCTYPE html>
-<html lang="ja">
-
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Descriptions-->
-<meta name="description" content="##35 characters##">
-<meta property="og:title" content="##14 characters##">
-<meta property="og:url" content="https://">
-<meta property="og:description" content="##35 characters##">
-<meta property="og:image" content="##URL##">
-<!-- Descriptions-->
-<meta charset="UTF-8">
-<meta charset="Shift_JIS">
-<meta charset="euc-jp">
-<meta charset="iso-2022-jp">
-<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-<link rel="stylesheet" href="styles.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="icon" href="img/favicon.ico" type="image/x-icon">
-<title>Light time Cafe</title>
-<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-</head>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Descriptions-->
+        <meta name="description" content="##35 characters##">
+        <meta property="og:title" content="##14 characters##">
+        <meta property="og:url" content="https://">
+        <meta property="og:description" content="##35 characters##">
+        <meta property="og:image" content="##URL##">
+        <!-- Descriptions-->
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+        <title>Light time Cafe</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    </head>
 
 
 
 
 
 
-<!-- Language buttons -->
-<!-- <div class="">
-        <a class="langBtn enBtn" # href="#">ENGLISH</a>
-        <a class="langBtn jpBtn" href="#">日本語</a>
-    </div> -->
+    <!-- Language buttons -->
+    <!-- <div class="">
+            <a class="langBtn enBtn" # href="#">ENGLISH</a>
+            <a class="langBtn jpBtn" href="#">日本語</a>
+        </div> -->
 
-<body>
+    <body>
 
-    <!-- Responsive navbar -->
-    <div class="topNav" id="topNav">
-        <ul>
-            <li><a class="top-about-btn" href="#about">About</a></li>
-            <li><a class="top-menu-btn" href="#menu">Menu</a></li>
-            
-            <li><a class="top-location-btn" href="#location">Location</a></li>
-        </ul>
-    </div>
-
-    <button id="upBtn" class="upBtn" onclick="scrollUp()" title="Go to top">^</button>
-
-    <div id="blocker" class="blocker">
-        <a href="#"></a>
-    </div>
-    <!-- ---------- -->
-    <header>
-        <img src="img/mainvisual.jpg" alt="mainvisual">
-        <div class="logo-text">
-            <h1 id="logo-effect">Light time <span class="cafe-text">Cafe</span></h1>
-        </div>
-        <div class="logo-text-sub">
-            <h6 id="logo-effect" ><a  href="#about">Scroll down</a></h6>
-        </div>
-        <!-- <img src="img/mug-hot-solid.svg" class="mug-icon"> -->
-        <nav class="nav">
+        <!-- Responsive navbar -->
+        <div class="topNav" id="topNav">
             <ul>
-                <li> <a nav-btn" href="#menu">MENU</a></li>
-                <li><a class="nav-btn" href="#about">ABOUT</a></li>
-                <li><a class="nav-btn" href="#location">ACCESS</a></li>
+                <li><a class="top-about-btn" href="#about">About</a></li>
+                <li><a class="top-menu-btn" href="#menu">Menu</a></li>
+                
+                <li><a class="top-location-btn" href="#location">Location</a></li>
             </ul>
-        </nav>
-        <button class="hamburger">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
-        </button>
-    </header>
+        </div>
 
-    <main>
-        <section id="about">
-            <div class="parallax-image1 sticky">
-                <h1 class="section-title">ABOUT</h1>
+        <button id="upBtn" class="upBtn" onclick="scrollUp()" title="Go to top">^</button>
+
+        <div id="blocker" class="blocker">
+            <a href="#"></a>
+        </div>
+        <!-- ---------- -->
+        <header>
+            <img src="img/mainvisual.jpg" alt="mainvisual">
+            <div class="logo-text">
+                <h1 id="logo-effect">Light time <span class="cafe-text">Cafe</span></h1>
             </div>
-            <div class="full-width beige">
-                <div class="about-container">
-                    <h3 class="section-head">Our Coffee</h3>
-                    <div class="about-item">
-                        <div class="about-text">
-                            <p>Welcome to Light Time Cafe, a place where you can enjoy a perfect cup of coffee,
-                                delicious
-                                food, and a warm and inviting atmosphere. Our cafe is located in the heart of the city,
-                                and
-                                we're proud to offer a wide variety of options to our customers. From handcrafted coffee
-                                to
-                                tasty food, we have something for everyone. At Light Time Cafe, coffee is our passion.
-                                We
-                                use only the highest-quality beans, sourced from some of the best farms in the world.
-                                Our
-                                skilled baristas carefully craft each cup to perfection, ensuring that every sip is as
-                                delicious as the last. Whether you're in the mood for a classic latte or a bold
-                                espresso,
-                                we've got you covered. Our coffee menu also features a variety of seasonal and specialty
-                                drinks, so there's always something new to try.
+            <div class="logo-text-sub">
+                <h6 id="logo-effect" ><a  href="#about">Scroll down</a></h6>
+            </div>
+            <!-- <img src="img/mug-hot-solid.svg" class="mug-icon"> -->
+            <!-- <nav class="nav">
+                <ul>
+                    <li> <a nav-btn" href="#menu">MENU</a></li>
+                    <li><a class="nav-btn" href="#about">ABOUT</a></li>
+                    <li><a class="nav-btn" href="#location">ACCESS</a></li>
+                </ul>
+            </nav> -->
+            <button class="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
+        </header>
 
-                            <!-- </p><br>
-
-                            <p>In addition to our delicious coffee, we also offer a wide variety of food options to suit
-                                any
-                                appetite. Our menu features a mix of classic cafe fare, such as sandwiches and pastries,
-                                as
-                                well as more unique and creative dishes. We use only the freshest and highest-quality
-                                ingredients in all of our dishes, so you can trust that whatever you order will be
-                                delicious. Our menu is designed to cater to different dietary needs such as gluten free,
-                                vegan, and vegetarian options. We also have a wide variety of seating options to suit
-                                any
-                                need. Whether you're looking for a cozy spot to catch up with a friend, a quiet table to
-                                work on your laptop, or a comfortable spot to relax and unwind, we've got you covered.
-                                We
-                                also have a small garden area, where you can enjoy a relaxing moment with your friends
-                                or
-                                family. </p> -->
-                        </div>
-                        <div class="about-text">
-                            <p>We pride ourselves on creating a warm and inviting atmosphere at Light Time Cafe. Our
-                                decor
-                                is modern and minimalist, with a focus on natural light and a neutral color palette. We
-                                believe that the atmosphere plays a crucial role in enhancing the overall dining
-                                experience,
-                                and we have designed our space keeping that in mind. We understand that life can be
-                                hectic
-                                and time is precious, that's why we are open 7 days a week and we are happy to take your
-                                orders for take away if you don't have time to stay and enjoy your meal. We're more than
-                                just a cafe - we're a community. We're passionate about providing our customers with the
-                                best possible experience, and we're always happy to chat and get to know our regulars.
-                                We
-                                also organize events and workshops in our cafe, such as poetry readings, book clubs, and
-                                <!-- cooking classes, to foster a sense of community among our customers.</p><br>
-                            <p>We also care about the environment, we use biodegradable packaging for take away orders,
-                                and
-                                we encourage our customers to bring their reusable cups for take away orders. So come on
-                                by
-                                and see for yourself why Light Time Cafe is quickly becoming the go-to spot for coffee
-                                and
-                                food in the city. We can't wait to serve you! Whether you're looking for a quick
-                                pick-me-up,
-                                a place to catch up with friends, or a comfortable spot to work, Light Time Cafe is the
-                                perfect choice.
-                            </p> -->
-                        </div>
-                    </div>
-
+        <main>
+            <section id="about">
+                <div class="parallax-image1 sticky">
+                    <h1 class="section-title">About</h1>
                 </div>
-            </div>
-        </section>
-        <section id="menu">
-            
-            <div class="parallax-image2 sticky">
-                <h1 class="section-title">Menu</h1>
-            </div>
-            <div class="full-width white">
-                <div class="menu-container">
-                    <div class="menu-item">
-                        <h3 class="section-head">Expresso & Coffee</h3>
-                        <dl>
-                            <dt>Light Time Latte</dt>
-                            <dd>¥455</dd>
-                        </dl>
-                        <dl>
-                            <dt>Soy Latte</dt>
-                            <dd>¥455</dd>
-                        </dl>
-                        <dl>
-                            <dt>Almond Milk Latte</dt>
-                            <dd>¥455</dd>
-                        </dl>
-                        <dl>
-                            <dt>Vanilla Latte</dt>
-                            <dd>¥455</dd>
-                        </dl>
-                        <dl>
-                            <dt>Oat Milk Latte</dt>
-                            <dd>¥455</dd>
-                        </dl>
-                        <dl>
-                            <dt>Cappuccino</dt>
-                            <dd>¥455</dd>
-                        </dl>
-                        <dl>
-                            <dt>Mocha</dt>
-                            <dd>¥440</dd>
-                        </dl>
-                        <dl>
-                            <dt>White Mocha</dt>
-                            <dd>¥440</dd>
-                        </dl>
-                        <dl>
-                            <dt>Caramel Macchiato</dt>
-                            <dd>¥495</dd>
-                        </dl>
-                        <dl>
-                            <dt>Americano</dt>
-                            <dd>¥410</dd>
-                        </dl>
-                        <dl>
-                            <dt>Espresso</dt>
-                            <dd>¥350</dd>
-                        </dl>
-                        <dl>
-                            <dt>Drip Coffee</dt>
-                            <dd>¥390</dd>
-                        </dl>
-                        <dl>
-                            <dt>Cold Brew</dt>
-                            <dd>¥720</dd>
-                        </dl>
-                        <dl>
-                            <dt>Nitro Cold Brew</dt>
-                            <dd>¥850</dd>
-                        </dl>
-                        
-                    </div>
-                    <div class="menu-item">
-                        <h3 class="section-head">Tea</h3>
-                        <dl>
-                            <dt>Green Tea</dt>
-                            <dd>¥430</dd>
-                        </dl>
-                        <dl>
-                            <dt>English Breakfast</dt>
-                            <dd>¥430</dd>
-                        </dl>
-                        <dl>
-                            <dt>Chamomile</dt>
-                            <dd>¥430</dd>
-                        </dl>
-                        <dl>
-                            <dt>Earl Grey</dt>
-                            <dd>¥430</dd>
-                        </dl>
-                        <dl>
-                            <dt>Matcha Tea Latte</dt>
-                            <dd>¥495</dd>
-                        </dl>
-                        <dl>
-                            <dt>English Breakfast Tea Latte</dt>
-                            <dd>¥495</dd>
-                        </dl>
-                        <dl>
-                            <dt>Chamomile Tea Latte</dt>
-                            <dd>¥495</dd>
-                        </dl>
-                        <h3 class="section-head">Snacks</h3>
-                        <dl>
-                            <dt>Croissant</dt>
-                            <dd>¥330</dd>
-                        </dl>
-                        <dl>
-                            <dt>Chocolate Danish</dt>
-                            <dd>¥295</dd>
-                        </dl>
-                        <dl>
-                            <dt>Chocolate Scones</dt>
-                            <dd>¥290</dd>
-                        </dl>
-                        <dl>
-                            <dt>Cinnamon Roll</dt>
-                            <dd>¥355</dd>
-                        </dl>
-                        <dl>
-                            <dt>American Waffle</dt>
-                            <dd>¥275</dd>
-                        </dl>
-                        <dl>
-                            <dt>Plain Donut</dt>
-                            <dd>¥255</dd>
-                        </dl>
+                <div class="full-width beige">
+                    <div class="about-container">
+                        <h3 class="section-head">Our Coffee</h3>
+                        <div class="about-item">
+                            <div class="about-text">
+                                <p>Welcome to Light Time Cafe, a place where you can enjoy a perfect cup of coffee,
+                                    delicious
+                                    food, and a warm and inviting atmosphere. Our cafe is located in the heart of the city,
+                                    and
+                                    we're proud to offer a wide variety of options to our customers. From handcrafted coffee
+                                    to
+                                    tasty food, we have something for everyone. At Light Time Cafe, coffee is our passion.
+                                    We
+                                    use only the highest-quality beans, sourced from some of the best farms in the world.
+                                    Our
+                                    skilled baristas carefully craft each cup to perfection, ensuring that every sip is as
+                                    delicious as the last. Whether you're in the mood for a classic latte or a bold
+                                    espresso,
+                                    we've got you covered. Our coffee menu also features a variety of seasonal and specialty
+                                    drinks, so there's always something new to try.
+
+                                <!-- </p><br>
+
+                                <p>In addition to our delicious coffee, we also offer a wide variety of food options to suit
+                                    any
+                                    appetite. Our menu features a mix of classic cafe fare, such as sandwiches and pastries,
+                                    as
+                                    well as more unique and creative dishes. We use only the freshest and highest-quality
+                                    ingredients in all of our dishes, so you can trust that whatever you order will be
+                                    delicious. Our menu is designed to cater to different dietary needs such as gluten free,
+                                    vegan, and vegetarian options. We also have a wide variety of seating options to suit
+                                    any
+                                    need. Whether you're looking for a cozy spot to catch up with a friend, a quiet table to
+                                    work on your laptop, or a comfortable spot to relax and unwind, we've got you covered.
+                                    We
+                                    also have a small garden area, where you can enjoy a relaxing moment with your friends
+                                    or
+                                    family. </p> -->
+                            </div>
+                            <div class="about-text">
+                                <p>We pride ourselves on creating a warm and inviting atmosphere at Light Time Cafe. Our
+                                    decor
+                                    is modern and minimalist, with a focus on natural light and a neutral color palette. We
+                                    believe that the atmosphere plays a crucial role in enhancing the overall dining
+                                    experience,
+                                    and we have designed our space keeping that in mind. We understand that life can be
+                                    hectic
+                                    and time is precious, that's why we are open 7 days a week and we are happy to take your
+                                    orders for take away if you don't have time to stay and enjoy your meal. We're more than
+                                    just a cafe - we're a community. We're passionate about providing our customers with the
+                                    best possible experience, and we're always happy to chat and get to know our regulars.
+                                    We
+                                    also organize events and workshops in our cafe, such as poetry readings, book clubs, and
+                                    <!-- cooking classes, to foster a sense of community among our customers.</p><br>
+                                <p>We also care about the environment, we use biodegradable packaging for take away orders,
+                                    and
+                                    we encourage our customers to bring their reusable cups for take away orders. So come on
+                                    by
+                                    and see for yourself why Light Time Cafe is quickly becoming the go-to spot for coffee
+                                    and
+                                    food in the city. We can't wait to serve you! Whether you're looking for a quick
+                                    pick-me-up,
+                                    a place to catch up with friends, or a comfortable spot to work, Light Time Cafe is the
+                                    perfect choice.
+                                </p> -->
+                            </div>
+                        </div>
 
                     </div>
                 </div>
-            </div>
-        </section>
-       
-        <section id="location">
-
-            <div class="parallax-image3 sticky">
-                <h1 class="section-title">Location</h1>
-            </div>
-            <div class="full-width white">
-                <div class="location-container">
-                    <h3 class="section-head">OUR STORE</h3>
-                    <div class="location-item">
-
-                        <div id="map">
-                            <!-- <script
-                                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHYQ3XEsAz8m6GCrJ4tVgnpJJcNhAoteE&region=JP&language=en&callback=initMap&v=weekly"
-                                defer></script> -->
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d810.5779024323331!2d139.70988291174322!3d35.64469355882346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b3ff4b78f85%3A0x298742e6d61908fd!2z44CSMTUwLTAwMjIg5p2x5Lqs6YO95riL6LC35Yy65oG15q-U5a-_5Y2X77yR5LiB55uu77yR77yU4oiS77yTIOOCqOOCueOCqOOCueacrOekvuODk-ODqw!5e0!3m2!1sja!2sjp!4v1684851041082!5m2!1sja!2sjp" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-
-                        <address>
-                            <p>1-17-28, Ebisuminami, Shibuya-ku, Tokyo</p>
-                            <p>東京都渋谷区恵比寿南1-17-28</p>
-                            <br>
-                            <p> Open 7 days a Week</p>
-                            <p> 9:00am to 10:00pm</p>
-                            <br>
-                            <p>Tel: <a href="tel:080-9800-9987">080-9800-7887</a></p>
-                        </address>
-
-                    </div>
-
+            </section>
+            <section id="menu">
+                
+                <div class="parallax-image2 sticky">
+                    <h1 class="section-title">Menu</h1>
                 </div>
-            </div>
+                <div class="full-width white">
+                    <div class="menu-container">
+                        <div class="menu-item">
+                            <h3 class="section-head">Expresso & Coffee</h3>
+                            <dl>
+                                <dt>Light Time Latte</dt>
+                                <dd>¥455</dd>
+                            </dl>
+                            <dl>
+                                <dt>Soy Latte</dt>
+                                <dd>¥455</dd>
+                            </dl>
+                            <dl>
+                                <dt>Almond Milk Latte</dt>
+                                <dd>¥455</dd>
+                            </dl>
+                            <dl>
+                                <dt>Vanilla Latte</dt>
+                                <dd>¥455</dd>
+                            </dl>
+                            <dl>
+                                <dt>Oat Milk Latte</dt>
+                                <dd>¥455</dd>
+                            </dl>
+                            <dl>
+                                <dt>Cappuccino</dt>
+                                <dd>¥455</dd>
+                            </dl>
+                            <dl>
+                                <dt>Mocha</dt>
+                                <dd>¥440</dd>
+                            </dl>
+                            <dl>
+                                <dt>White Mocha</dt>
+                                <dd>¥440</dd>
+                            </dl>
+                            <dl>
+                                <dt>Caramel Macchiato</dt>
+                                <dd>¥495</dd>
+                            </dl>
+                            <dl>
+                                <dt>Americano</dt>
+                                <dd>¥410</dd>
+                            </dl>
+                            <dl>
+                                <dt>Espresso</dt>
+                                <dd>¥350</dd>
+                            </dl>
+                            <dl>
+                                <dt>Drip Coffee</dt>
+                                <dd>¥390</dd>
+                            </dl>
+                            <dl>
+                                <dt>Cold Brew</dt>
+                                <dd>¥720</dd>
+                            </dl>
+                            <dl>
+                                <dt>Nitro Cold Brew</dt>
+                                <dd>¥850</dd>
+                            </dl>
+                            
+                        </div>
+                        <div class="menu-item">
+                            <h3 class="section-head">Tea</h3>
+                            <dl>
+                                <dt>Green Tea</dt>
+                                <dd>¥430</dd>
+                            </dl>
+                            <dl>
+                                <dt>English Breakfast</dt>
+                                <dd>¥430</dd>
+                            </dl>
+                            <dl>
+                                <dt>Chamomile</dt>
+                                <dd>¥430</dd>
+                            </dl>
+                            <dl>
+                                <dt>Earl Grey</dt>
+                                <dd>¥430</dd>
+                            </dl>
+                            <dl>
+                                <dt>Matcha Tea Latte</dt>
+                                <dd>¥495</dd>
+                            </dl>
+                            <dl>
+                                <dt>English Breakfast Tea Latte</dt>
+                                <dd>¥495</dd>
+                            </dl>
+                            <dl>
+                                <dt>Chamomile Tea Latte</dt>
+                                <dd>¥495</dd>
+                            </dl>
+                            <h3 class="section-head">Snacks</h3>
+                            <dl>
+                                <dt>Croissant</dt>
+                                <dd>¥330</dd>
+                            </dl>
+                            <dl>
+                                <dt>Chocolate Danish</dt>
+                                <dd>¥295</dd>
+                            </dl>
+                            <dl>
+                                <dt>Chocolate Scones</dt>
+                                <dd>¥290</dd>
+                            </dl>
+                            <dl>
+                                <dt>Cinnamon Roll</dt>
+                                <dd>¥355</dd>
+                            </dl>
+                            <dl>
+                                <dt>American Waffle</dt>
+                                <dd>¥275</dd>
+                            </dl>
+                            <dl>
+                                <dt>Plain Donut</dt>
+                                <dd>¥255</dd>
+                            </dl>
 
-        </section>
-
-    </main>
-
-    <footer>
-        <p>YMGcreative©copyright2023</p>
-    </footer>
-
-    <script src="script.js"></script>
-    <script>
-
-$(document).ready(function() {
-$("#logo-effect").click(function() {
-    $(".logo-text-sub").fadeToggle();
-})
-
-})
+                        </div>
+                    </div>
+                </div>
+            </section>
         
-    </script>
+            <section id="location">
 
-</body>
+                <div class="parallax-image3 sticky">
+                    <h1 class="section-title">Location</h1>
+                </div>
+                <div class="full-width white">
+                    <div class="location-container">
+                        <h3 class="section-head">OUR STORE</h3>
+                        <div class="location-item">
+
+                            <div id="map">
+                                
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d810.5779024323331!2d139.70988291174322!3d35.64469355882346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b3ff4b78f85%3A0x298742e6d61908fd!2z44CSMTUwLTAwMjIg5p2x5Lqs6YO95riL6LC35Yy65oG15q-U5a-_5Y2X77yR5LiB55uu77yR77yU4oiS77yTIOOCqOOCueOCqOOCueacrOekvuODk-ODqw!5e0!3m2!1sja!2sjp!4v1684851041082!5m2!1sja!2sjp" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+
+                            <address>
+                                <p>1-17-28, Ebisuminami, Shibuya-ku, Tokyo</p>
+                                <p>東京都渋谷区恵比寿南1-17-28</p>
+                                <br>
+                                <p> Open 7 days a Week</p>
+                                <p> 9:00am to 10:00pm</p>
+                                <br>
+                                <p>Tel: <a href="tel:080-9800-9987">080-9800-7887</a></p>
+                            </address>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <p>YMGcreative©copyright2023</p>
+        </footer>
+
+        <script src="script.js"></script>
+        <script>
+
+    $(document).ready(function() {
+    $("#logo-effect").click(function() {
+        $(".logo-text-sub").fadeToggle();
+    })
+
+    })
+            
+        </script>
+
+    </body>
 
 </html>
